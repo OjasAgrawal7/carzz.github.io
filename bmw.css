@@ -1,0 +1,29 @@
+.main-text .suggestions2{
+    margin-left: 1.2vw;
+    width: 23.32vw;
+    margin-top: 1vw;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.main-text input.search{
+    border-radius: 8px;
+}
+img{
+    width: 7vw;
+    /* margin-left: 2vw; */
+    /* position: absolute; */
+}
+.img{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+}
+.img p{
+    color: white;
+}
+.img h3{
+    color: white;
+    margin-top:7.5vw;
+    margin-left: -vw;
+    position: absolute;
+}

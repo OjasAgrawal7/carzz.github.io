@@ -1,0 +1,1 @@
+<img id="car-image" src="${car[csvConfig.image]}" alt="Car Image" style="width: 100%; height: auto;">

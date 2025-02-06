@@ -1,0 +1,141 @@
+*{
+    font-family: 'Plus Jakarta Sans';
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(112, 109, 109);
+}
+.container{
+    background-color:rgb(96, 90, 90);
+    width: 26%;
+    max-width: 100vw;
+    margin-top:10vw;
+    border-radius: 60px;
+    margin-left: 2vw;
+    z-index: 200000;
+    height: 60vh;
+}
+.container .car-info p{
+    margin-top: 2vw;
+}
+.container .car-info img{
+    margin-left: 2vw;
+}
+.container .car-info{
+    margin-top: 2vw;
+}
+.container .car-info p{
+    margin-bottom: 1vw;
+    margin-left: 2vw;
+    color: white;
+}
+.contianer .car-info{
+    margin-left: 2vw;
+}
+.container .car-info h2{
+    margin-bottom: 1vw;
+    margin-left: 2vw;
+    color: white;
+}
+.container .car-info h2#car_name{
+    color: white;
+    margin-top: -10vw;
+    z-index: 10000;
+    font-size: 4vw;
+    margin-left: 1vw;
+    position: absolute;
+}
+.container .car-info h3{
+    margin-left: 2vw;
+    color: white;
+}
+.container .car-info ul li {
+    margin-left: 2vw;
+    color: white;
+}
+.container p#key{
+    margin-left: 2vw;
+    color: white;
+    top: 1vw;
+    position: relative;
+}
+.info-container-left{
+    width: 20vw;
+    margin-top: -20vw;
+}
+.variants{
+    width: 26%;
+    background-color:rgb(96, 90, 90);
+    margin-left: 70%;
+    margin-top: -60vh;
+    height: 65vh;
+    border-radius: 60px;
+}
+.container .car-info h3{
+    margin-left: 70%;
+    position: absolute;
+    margin-top: -20%;
+}
+.container .car-info ul{
+    position: absolute;
+    margin-left: 70%;
+    margin-top: -18%;
+}
+
+.container .car-info .car-img img#car-image{
+    position: absolute;
+    width: 54vw;
+    left: 21vw;
+    top:0;
+    /* top: 35%;  */
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    top: 50%;
+    left: 50%;
+    max-width: 100%;
+
+    transform: translate(-50%, -50%);
+
+}
+.container .car-info .car-img{
+    width: 40vw;
+    top: -25vw;
+    align-items:center;
+    justify-content: center;
+    left:28%;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    height: 100vw;
+}  
+.variants{
+    margin-left: 70vw;
+    margin-top: -25vw;
+}
+.container .car-info .variants ul{
+    margin-top: 4vw;
+    left: 0;
+    margin-left: 72vw;
+}
+.container .car-info .variants h3{
+    left: 0;
+    margin-left: 73vw;
+    margin-top: 2vw;
+}
+.container .car-info .variants{
+    width: 26vw;
+}
+.container .car-info .variants ul button{
+   /* border:1px solid white; */
+   outline:  none;
+   border: none;
+   text-decoration: 1px underline white;
+   background-color: transparent;
+   padding: 2px;
+   /* margin: 5px; */
+   cursor: pointer;
+}
+
+

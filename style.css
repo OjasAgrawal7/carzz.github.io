@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans';
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.main-page{
+    display: flex;
+    justify-content: center;
+    z-index: -200;
+}
+img#main-bg{
+    /* margin-top: 2.5vw; */
+    width: 100vw;
+    /* margin-top: 20px; */
+    /* border-radius: 20px; */
+    height: 40vw;
+}
+.main-text h1{
+    position:absolute;
+    margin-left: 60vw;
+    margin-top: -30vw;
+    color: white;
+    font-size: 60px;
+}
+.main-text span#car{
+    color: rgb(255, 34, 34);
+}
+.main-text input.search{
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: -18vw;
+    width: 340px;
+    height: 41px;
+    /* border-radius:10px; */
+    /* border-top-left-radius: 10px; */
+    /* border-top-right-radius: 10px; */
+    background-color: rgb(58, 57, 57);
+    padding-left: 15px;
+    border: none;
+    color: white;
+}
+.main-text input.search:focus{
+    border: none;
+}
+.main-text input.search::placeholder{
+    color: white;
+    border: none;
+}
+.white-box{
+    height: 100vh;
+    position: absolute;
+    width: 98.9vw; 
+    margin-top: -50px;
+    z-index: 10000000;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    background-color:rgb(96, 90, 90);
+    box-shadow: 10px 10px;
+}
+.white-box p{
+    margin-left: 50px;
+    color: white;
+    margin-top: 10vh;
+    font-size: 30px;
+}
+.white-box .brand-box1{
+    background-color: rgba(59, 58, 58, 0.413);
+    width: 6vw;
+    height: 13vh;
+    margin-left: 5vw;
+    margin-top: 2vw;
+    /* display: flex;
+    justify-content: center; */
+    border-radius: 20px;
+    align-items: center;
+    transition: all .2s;
+    cursor:pointer;
+}
+.white-box .brand-box2{
+    background-color: rgba(59, 58, 58, 0.413);
+    width: 6vw;
+    height: 13vh;
+    margin-left: 14vw;
+    margin-top: -6.2vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    transition: all .2s;
+    cursor:pointer;
+}
+.white-box .brand-box3{
+    background-color: rgba(59, 58, 58, 0.413);
+    width: 6vw;
+    height: 13vh;
+    margin-left: 23vw;
+    margin-top: -6.2vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    transition: all .1s;
+    cursor:pointer;
+}
+.white-box .brand-box4{
+    background-color: rgba(59, 58, 58, 0.413);
+    width: 6vw;
+    height: 13vh;
+    margin-left: 32vw;
+    margin-top: -6.2vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    transition: all .1s;
+    cursor:pointer;
+}
+.white-box .brand-box5{
+    background-color: rgba(59, 58, 58, 0.413);
+    width: 6vw;
+    height: 13vh;
+    margin-left: 41vw;
+    margin-top: -6.2vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    transition: all .1s;
+    cursor: pointer;
+}
+.white-box .brand-box6{
+    background-color: rgba(59, 58, 58, 0.413);
+    width: 6vw;
+    height: 13vh;
+    margin-left: 50vw;
+    margin-top: -6.2vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    transition: all .1s;
+    cursor: pointer;
+}
+.white-box .brand-box7{
+    background-color: rgba(59, 58, 58, 0.413);
+    width: 6vw;
+    height: 13vh;
+    margin-left: 59vw;
+    margin-top: -6.2vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    transition: all .1s;
+    cursor: pointer;
+}
+.white-box a#idk img.hover-image{
+    width: 4vw;
+    height: 8.3vh;
+    margin-top: 10.4vw;
+    margin-left: 6vw;
+}
+.white-box .brand-box2 img{
+    width: 4vw;
+    height: 8vh;
+    
+}
+.white-box .brand-box3 img{
+    width: 10vw;
+    height: vh;
+    
+}
+.white-box .brand-box4 img{
+    width: 5vw;
+    height: vh;
+}
+.white-box .brand-box5 img{
+    width: 5vw;
+    margin-top: 1vw;
+    height: vh;
+}
+.white-box .brand-box6 img{
+    width: 3.5vw;
+    margin-top: vw;
+    height: vh;
+}
+.white-box .brand-box7 img{
+    width: 9vw;
+    margin-top: vw;
+    height: vh;
+}
+p#trending{
+    margin-top: 5vw;
+}
+.trending-box1 img{
+    width: 15vw;
+    margin-left: 7vw;
+    position: relative;
+    margin-top: 2vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.trending-info1{
+    background-color: rgb(80,77,77);
+    width: 15vw;
+    height: 13vh;
+    margin-left: 7vw;
+    margin-top: -1vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition:all .1s;
+}
+
+
+.trending-info1 p#car-name{
+    font-size: 1vw;
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 3vh;
+}
+.trending-info1 p#brand{
+    font-size: 1vw;
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 6vh;
+}
+.trending-box2 img{
+    width: 15vw;
+    margin-left: 25vw;
+    height: 18vh;
+    position: relative;
+    margin-top: -40vw;
+    top: -6.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.trending-info2{
+    background-color: rgb(80,77,77);
+    width: 15vw;
+    height: 13vh;
+    margin-left: 25vw;
+    margin-top: -7.5vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition:all .1s;
+}
+
+
+.trending-info2 p#car-name{
+    font-size: 1vw;
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 3vh;
+}
+.trending-info2 p#brand{
+    font-size: 1vw;
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 6vh;
+}
+.trending-box3 img{
+    width: 15vw;
+    margin-left: 43vw;
+    height: 18vh;
+    position: relative;
+    margin-top: -40vw;
+    top: -6.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.trending-info3{
+    background-color: rgb(80,77,77);
+    width: 15vw;
+    height: 13vh;
+    margin-left: 43vw;
+    margin-top: -7.5vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition:all .1s;
+}
+
+
+.trending-info3 p#car-name{
+    font-size: 1vw;
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 3vh;
+}
+.trending-info3 p#brand{
+    font-size: 1vw;
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 6vh;
+}
+.trending-box4 img{
+    width: 15vw;
+    margin-left: 61vw;
+    height: 18vh;
+    position: relative;
+    margin-top: -40vw;
+    top: -6.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.trending-info4{
+    background-color: rgb(80,77,77);
+    width: 15vw;
+    height: 13vh;
+    margin-left: 61vw;
+    margin-top: -7.5vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition:all .1s;
+}
+
+
+.trending-info4 p#car-name{
+    font-size: 1vw;
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 3vh;
+}
+.trending-info4 p#brand{
+    font-size: 1vw;
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 6vh;
+}
+.upcoming1 img{
+    width: 15vw;
+    margin-left: 7vw;
+    height: 18vh;
+    position: relative;
+    margin-top: 9vw;
+    top: -6.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.upcoming-info1{
+    background-color: rgb(80,77,77);
+    width: 15vw;
+    height: 13vh;
+    margin-left: 7vw;
+    margin-top: -8vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition:all .1s;
+    z-index: 200;
+}
+
+
+.upcoming-info1 p#car-name{
+    font-size: 1vw;
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 4vh;
+}
+.upcoming-info1 p#brand{
+    font-size: 1vw;
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 7vh;
+}
+.upcoming2 img{
+    width: 15vw;
+    margin-left: 25vw;
+    height: 17.5vh;
+    position: relative;
+    margin-top: -6.8vw;
+    top: -6.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.upcoming-info2{
+    background-color: rgb(80,77,77);
+    width: 15vw;
+    height: 13vh;
+    margin-left: 25vw;
+    margin-top: -8vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition:all .1s;
+    z-index: 200;
+}
+
+
+.upcoming-info2 p#car-name{
+    font-size: 1vw;
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 4vh;
+}
+.upcoming-info2 p#brand{
+    font-size: 1vw;
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 7vh;
+}
+.upcoming3 img{
+    width: 15vw;
+    margin-left: 43vw;
+    height: 16vh;
+    position: relative;
+    margin-top: -6.8vw;
+    top: -6.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.upcoming-info3{
+    background-color: rgb(80,77,77);
+    width: 15vw;
+    height: 13vh;
+    margin-left: 43vw;
+    margin-top: -8vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition:all .1s;
+    z-index: 200;
+}
+
+
+.upcoming-info3 p#car-name{
+    font-size: 1vw;
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 4vh;
+}
+.upcoming-info3 p#brand{
+    font-size: 1vw;
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 7vh;
+}
+.upcoming4 img{
+    width: 15vw;
+    margin-left: 61vw;
+    height: 16vh;
+    position: relative;
+    margin-top: -5.9vw;
+    top: -6.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.upcoming-info4{
+    background-color: rgb(80,77,77);
+    width: 15vw;
+    height: 13vh;
+    margin-left: 61vw;
+    margin-top: -8.1vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition:all .1s;
+    z-index: 200;
+}
+
+
+.upcoming-info4 p#car-name{
+    font-size: 1vw;
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 4vh;
+}
+.upcoming-info4 p#brand{
+    font-size: 1vw;
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 7vh;
+}
+.white-box a .brand-box1{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    
+}
+.white-box a .brand-box1 img.hover-image{
+    /* max-height: 100%;
+    max-width: 100%; */
+}
+/* .white-box a .brand-box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}   */
+/* .white-box a .brand-box1 img.hover-image{
+    margin-left: vw;
+    width: 5vw;
+} */
+.white-box a .brand-box1{
+    border: none;
+}
+
+.white-box .brand-box1 img.hover-image{
+    /* max-height: 100%;
+    max-width: 100%; */
+}
+.white-box .brand-box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .white-box .brand-box1 img.hover-image{
+    width: 4vw;
+    height: 8.3vh;
+    margin-left: 6vw;
+    margin-top: 10.4vw;
+} */
+.white-box .brand-box2 img{
+    width: 2vw;
+}
+.white-box .brand-box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.white-box .brand-box4 img.hover-image{
+    width: 5vw;
+    height: 7vh;
+    margin-left: 32.5vw;
+    margin-top: 22vh;
+}
+.white-box .brand-box5 img.hover-image{
+    width: 5vw;
+    height: 8vh;
+    margin-left: 41.5vw;
+    margin-top: 23vh;
+}
+.white-box .brand-box6 img.hover-image{
+    width: 4vw;
+    height: 8vh;
+    margin-left: 51vw;
+    margin-top: 21.5vh;
+}
+.white-box .brand-box1:hover{
+    transition: all .1s ease-in-out;
+    transform: scale(1.2);
+}
+.white-box .brand-box2:hover{
+    transition: all .1s ease-in-out;
+    transform: scale(1.2);
+}
+.white-box .brand-box3:hover{
+    transition: all .1s ease-in-out;
+    transform: scale(1.2);
+}
+.white-box .brand-box4:hover{
+    transition: all .1s ease-in-out;
+    transform: scale(1.2);
+}
+.white-box .brand-box5:hover{
+    transition: all .1s ease-in-out;
+    transform: scale(1.2);
+}
+.white-box .brand-box6:hover{
+    transition: all .1s ease-in-out;
+    transform: scale(1.2);
+}
+.white-box .brand-box7:hover{
+    transition: all .1s ease-in-out;
+    transform: scale(1.2);
+}
+.white-box .brand-box2 img{
+    width: 4vw;
+}
+.white-box{
+    height: 145vh;
+}
+
+.siteby{
+    background-color:#605A5A;
+    /* background-color: red; */
+    /* margin: auto; */
+}
+.siteby p {
+    color: white;
+    font-size: 1.2vw;
+    margin-left: 1px;
+    /* margin-top: 2vw; */
+}
+
+
