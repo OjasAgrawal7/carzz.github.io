@@ -1,0 +1,69 @@
+/* styles.css */
+.hover-container {
+    position: relative;
+    width: 300px; /* Set the width you want */
+    height: 200px; /* Set the height you want */
+    margin-bottom: 20px; /* Add margin to separate multiple containers */
+}
+
+.hover-image, .hover-gif {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hover-gif {
+    display: none;
+    visibility: hidden;
+}
+.brand-box1 .hover-container img.hover-image{
+    margin-top: 5.2vw;
+    margin-left: 1vw;
+    height: 4vw;
+}
+.brand-box1 .hover-container img.hover-gif{
+    margin-top: 4.2vw;
+    margin-left: 0vw;
+    width: 6vw;
+    height: 6vw;
+}
+.brand-box4 .hover-container img.hover-image{
+    width: 5vw;
+    height: 7vh;
+    margin-top: 5.2vw;
+    margin-left: .5vw;
+}
+.brand-box4 .hover-container img.hover-gif{
+    width: 12vw;
+    height: 8vh;
+    margin-top: 5.2vw;
+    margin-left: -3vw;
+}
+.brand-box5 .hover-container img.hover-image{
+    width: 5vw;
+    margin-top: 5.5vw;
+    margin-left: .5vw;
+    height: 9vh;
+}
+
+.brand-box5 .hover-container img.hover-gif{
+    width: 21vw;
+    height: 12vh;
+    margin-left: -7.5vw;
+    margin-top: 5vw;
+}
+.brand-box6 .hover-container img.hover-image{
+    width: 4vw;
+    height: 4vw;
+    margin-left: 1vw;
+    margin-top: 5vw;
+}
+.brand-box6 .hover-container img.hover-gif{
+    width: 7vw;
+    height: 7vw;
+    margin-top: 4vw;
+    margin-left: -.5vw;
+}

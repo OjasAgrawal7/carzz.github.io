@@ -1,0 +1,241 @@
+:root {
+    --primary-color: #ff2222;
+    --dark-bg: #1a1a1a;
+    --card-bg: #2d2d2d;
+    --text-color: #ffffff;
+    --text-muted: #b3b3b3;
+  }
+  
+  * {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(96, 90, 90);
+    color: var(--text-color);
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .main-page {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    max-height: 800px;
+    overflow: hidden;
+  }
+  
+  #main-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+  }
+  
+  .main-text {
+    position: absolute;
+    top: 50%;
+    left: 10%; /* Changed from right to left */
+    transform: translateY(-50%);
+    text-align: left; /* Changed from right to left */
+    z-index: 100;
+    max-width: 600px;
+    padding: 0 20px;
+  }
+  
+  .main-text h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+  }
+  
+  #car {
+    color: var(--primary-color);
+    font-weight: 700;
+  }
+  
+  /* Main Content Container */
+  .container {
+    background-color: var(--card-bg);
+    width: 100%;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    padding: 30px;
+    position: relative;
+    margin-top: -3vw;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Car Image */
+  .car-img {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #car-image {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  
+  /* Car Name Box */
+  /* More compact version */
+.car-name-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* padding: 8px 12px; */
+    border-radius: 23px;
+    margin: 0 auto 15px;
+    text-align: center;
+    height: 2vw;
+    display: inline-block;
+  }
+  
+  #car_name {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+    transform: translateY(40%);
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  /* Key Specifications */
+  #key {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin: 30px 0 20px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  #key::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: var(--primary-color);
+  }
+  
+  /* Specifications Table */
+  .specs-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .specs-table .p {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 0;
+  }
+  
+  .specs-table .p:nth-child(odd) {
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+  .specs-table .p:nth-child(even) {
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+  
+  /* Variants Section */
+  .variants {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
+  .variants h3 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+  }
+  
+  .container .variants-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* gap: 10px; */
+  }
+  
+  .container ul.variants-list li {
+    padding: 10px;
+    margin-left: 0;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .variants ul li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+  }
+  .container ul#variant-list button{
+    padding: 5px 15px;
+    list-style: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: -2vw;
+  } 
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .main-text {
+      right: 5%;
+      max-width: 500px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .main-page {
+      height: 50vh;
+    }
+    
+    .main-text {
+      top: 40%;
+      right: 5%;
+      left: 5%;
+      text-align: center;
+      max-width: 100%;
+    }
+    
+    .container {
+      margin-top: -50px;
+      padding: 20px;
+    }
+    
+    #car_name {
+      transform: translateY(-20%);
+      font-size: 1.5rem;
+    }
+    
+    .specs-table {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .main-page {
+      height: 40vh;
+    }
+    
+    .main-text h1 {
+      font-size: 1.8rem;
+    }
+    
+    .variants ul {
+      grid-template-columns: 1fr;
+    }
+    
+    .specs-table .p {
+      font-size: 1rem;
+    }
+  }

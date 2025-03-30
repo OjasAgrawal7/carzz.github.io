@@ -1,0 +1,449 @@
+@media only screen and (max-width:719px) {
+    *{
+        box-sizing: border-box;
+        -webkit-tap-highlight-color:transparent;
+        
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-y:scroll;
+    }
+    .white-box{
+        margin-top: 0vw;
+        width: 100vw;
+        
+    }
+    .main-page img#main-bg{
+        height: 30vh;
+        
+    }
+    .main-text h1{
+        font-size: 40px;
+        margin-left: 15vw;
+        width: 100vw;
+        margin-top: -20vh;
+        
+    }
+    .main-text input.search{
+        margin-left: 16vw;
+        margin-top: -12vw;
+        width: 55vw;
+        border-radius: 10px;
+    }
+    .white-box p{
+        font-size: 18px;
+        margin-top: 8vw;
+        width: 100vw;
+        position:absolute;  
+        margin-left: 5vw;
+    }
+    .white-box .brand-box1{
+        height: 1vh;
+        width: 1vw;
+        margin-top: 22vw;
+        position: absolute;
+        border-radius: 10px;
+        margin-left: 2vw;
+        
+    }
+    .white-box .brand-box1 img.hover-image{
+        width: 2vw;
+        margin-top: 0vw;
+        margin-left: 3.5vw;
+        height: 1vh;
+    }
+    .white-box .brand-box2 {
+        height: 8vh;
+        width: 18vw;
+        margin-top: 22vw;
+        margin-left: 22vw;
+        position: absolute;
+        border-radius: 10px;
+    }
+    .white-box .brand-box2 img{
+        width: 11vw;
+        height: 5vh;
+    }
+    .white-box .brand-box3{
+        height: 8vh;
+        width: 18vw;
+        margin-top: 22vw;
+        margin-left: 41vw;
+        position: absolute;
+        border-radius: 10px;
+    }
+    .white-box .brand-box3 img{
+        width: 25vw;
+        height: 8vh;
+    }
+    .white-box .brand-box4 {
+        height: 8vh;
+        width: 18vw;
+        margin-top: 22vw;
+        margin-left: 60vw;
+        position: absolute;
+        border-radius: 10px;
+    }
+    .white-box .brand-box4 .hover-container img.hover-image{
+        width: 13vw;
+        margin-top: 22vw;
+        margin-left: 2vw;
+        height: 4vh;
+    }
+    .white-box .brand-box6{
+        height: 8vh;
+        width: 18vw;
+        margin-top: 22vw;
+        margin-left: 79vw;
+        position: absolute;
+        border-radius: 10px;
+    }
+    .white-box .brand-box6 .hover-container img.hover-image{
+        width: 11vw;
+        margin-top: 9.5vh;
+        margin-left: 3.5vw;
+        height: 5vh;
+    }
+
+    .white-box .brand-box5{
+        display: none;
+    }
+    .white-box .brand-box7{
+        display: none;
+    }
+    .white-box .trending-box1{
+        margin-top: 55vw;
+        margin-left:-4vw;
+    }
+    .white-box .trending-info1{
+        width: 30vw;
+        height: 5vh;
+        position: absolute;
+    }
+    .white-box p#trending{
+        margin-top: 45vw;
+    }
+    .white-box .trending-box1 img{
+        width: 30vw;
+    }
+    .white-box .trending-info1 p#car-name{
+        font-size: 8px;
+        margin-top: 1vw;
+
+    }
+    .white-box .trending-box1 p#brand{
+        font-size: 8px;
+        margin-top: 4vw;
+
+    }
+    .white-box .trending-box2 img{
+        width: 30vw;
+        height: 8vh;
+        margin-left: 40vw;
+        margin-top: -12vw;
+    }
+    .white-box .trending-info2 {
+        width: 30vw;
+        margin-left: 40vw;
+        height: 5vh;
+    }
+    .white-box .trending-info2 p#car-name{
+        font-size: 8px;
+        margin-top:1vw;
+    }
+    .white-box .trending-box3 {
+        margin-left: 30vw;
+    }
+    .white-box .trending-box4{
+        margin-top: 50vw;
+    }
+    .white-box .trending-box3 img{
+        height: 8vh;
+        top: -15vw;
+    }
+    .white-box .trending-info3{
+        margin-left: 73vw;
+        width: 30vw;
+        height: 5vh;
+        margin-top: -16vw;
+    }
+    .white-box .trending-info3 p#car-name{
+        margin-top:1vw ;
+        font-size: 8px;
+    }
+    .white-box .trending-info3 p#car-name, .white-box .trending-info3 p#brand{
+        width: 20vw;
+    }
+    .white-box .trending-info2 p#car-name, .white-box .trending-info2 p#brand{
+        width: 20vw;
+    }
+    .white-box .trending-info1 p#car-name, .white-box .trending-info1 p#brand{
+        width: 20vw;
+    }
+    .white-box .trending-info4 p#car-name, .white-box .trending-info4 p#brand{
+        width: 20vw;
+    }
+    .white-box .upcoming-info1 p#car-name, p#brand{
+        width: 20vw;
+    }
+    .white-box .upcoming-info2 p#car-name, p#brand{
+        width: 20vw;
+    }
+    .main-text h1{
+        width: 82vw;
+    }
+    .white-box p{
+        width: 82vw;
+    }
+    .main-page img#main-bg{
+        width: 98vw;
+    }
+    html{
+        width: 98vw;
+    }
+    .brand-box6 .hover-container{
+        width: 20vw;
+    }
+    .brand-box4 .hover-container{
+        width: 20vw;
+    }
+    .trending-box4,.trending-info4{
+        display: none;
+    }
+    .upcoming1, .upcoming-info1{
+        display: none;
+    }
+    .upcoming2, .upcoming-info2{
+        display: none;
+    }
+    .upcoming3, .upcoming-info3{
+        display: none;
+    }
+    .upcoming4, .upcoming-info4{
+        display: none;
+    }
+    .main-text h1{
+        font-size: 10vw;
+    }
+    .brand-box4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .white-box .brand-box1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .white-box .brand-box4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .white-box .brand-box6 img.hover-image{
+        width: 11vw;
+        height: 4.4vh;
+        margin-left: 3.4vw;
+        margin-top: 4.2vw;
+    }
+    .white-box .brand-box4 img.hover-image{
+        width: 13vw;
+        height: 4vh;
+        margin-left: 2vw;
+        margin-top: 2vh;
+    }
+    .suggestions{
+        margin-top: -53vw;
+        margin-left: -44vw;
+        z-index: 100000000;
+        width: 55vw;
+    }
+    .main-text input.search{
+        outline: none;
+        border: none; /* Ensures there is no border when the input is focused */ 
+    }
+    .upcoming1{
+        display: block;
+        margin-top: 20vw;
+        margin-left: -4vw;
+    }
+    .upcoming1 img{
+        width: 30vw;
+        height: 8vh;
+    }
+    .white-box{
+        height: 1vh;
+    }
+    .upcoming-info1{
+        display: block;
+        margin-top: vw;
+        width: 30vw;
+        margin-left: 3vw;
+    }
+    .upcoming-info1 p#car-name{
+        font-size: 2vw;
+        margin-top: 2vw;
+    }
+    .upcoming-info1 p#brand{
+        margin-top: 5vw;
+        font-size: 2vw;
+    }
+    .upcoming-info1 {
+        height: 5vh;
+    }
+    .upcoming2{
+        display: block;
+        width: 30vw;
+        margin-left: 11vw;
+        margin-top: 0;
+    }
+    .upcoming2 img{
+        width: 30vw;
+        height: 8vh;
+        top: -21.5vw;
+    }
+    .upcoming-info2{
+        display: block;
+        margin-top: -22vw;
+        margin-left: 36vw;
+        width:30vw;
+        height: 4.5vh;
+    }
+    .upcoming-info2 p#car-name{
+        font-size: 2vw;
+        margin-top: 1vw;
+
+    }
+    .upcoming-info2 p#brand{
+        font-size: 2vw;
+        
+        margin-top: 4vw;
+    }
+    .upcoming4{
+        display: block;
+        width: 30vw;
+        margin-left:8vw;
+        margin-top: -16vw;
+    }
+    .upcoming4 img{
+        width: 30vw;
+        height: 8vh;
+    }
+    .upcoming-info4{
+        display: block;
+        width: 30vw;
+        height: 5vh;
+        margin-left: 69vw;
+    }
+    .upcoming-info4 p#car-name{
+        width: 20vw;
+    }
+    .upcoming-info4 p#car-name{
+        font-size: 2vw;
+        margin-top: 2vw;
+    }
+    .upcoming-info4 p#brand{
+        font-size: 2vw;
+        margin-top: 5vw;
+    }
+    .search{
+        margin-bottom: 2vw;
+    }
+    .suggestions{
+        left: 60%;
+        margin-top: -24vh;
+    }
+    .white-box{
+        height: 102vh;
+    }
+    .siteby{
+        margin-top: 8vw;
+    }
+    .siteby h1{
+        /* margin-top: 1vw; */
+        font-size: 3vw;
+    }
+    .container .car-info .car-img{
+        margin-top: 20vw;
+    }
+    .container .car-info .car-img img#car-image{
+        width: 100vw;
+        max-width: 1000%;
+        /* left: -200%; */
+        /* height: 100vw; */
+    }
+    .container{
+        margin-top: 72%;
+        width: 88.5vw;
+        height: 80vw;
+    }
+    .container .car-info{
+        width: 100vw;
+
+    }
+    .variants{
+        margin-top: 100%;
+        padding-top: 100%;
+    }
+    .container .car-info .variants h3{
+        margin-top: -95vw;
+        color: white;
+        z-index: 50000;
+        margin-left: 6vw;
+    }
+    .container .car-info .variants{
+        margin-top: 50vw;
+        width: 88.5vw;
+        margin-left: 0;
+
+    }
+    .container .car-info li{
+        color: white;
+        z-index: 1000;
+        margin-left: 0;
+        /* margin-top: -100vw; */
+        margin-top: 2vw;
+    }
+    .container .car-info .variants ul{
+        margin-top: -90vw;
+        margin-left: 5vw;
+    }
+    .container .car-info h2#car_name{
+        margin-top: -70vw;
+        font-size: 6vw;
+    }
+    .container .car-info{
+        margin-top: 50vw;
+    }
+    .container p#key{
+        position: absolute;
+        margin-top: 73vw;
+        margin-left: 25%;
+    }
+    .container p#price{
+        top: 11vw;
+        position: relative;
+    }
+    .container p#drive_type{
+        margin-top: 13vw;
+    }
+    .siteby p{
+        font-size: 2vw;
+    }
+    .white-box a .brand-box1{
+        width: 17vw;
+        height: 8vh;
+        top: 0vw;
+
+        margin-left: 4.2vw;
+    }
+    .white-box a#idk .brand-box1 img.hover-image{
+        width: 11vw;
+        height: 5vh;
+        margin-top: 3.2vw;
+        margin-left: 2.5vw;
+    }
+}
